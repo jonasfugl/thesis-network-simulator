@@ -22,9 +22,14 @@ namespace SimulatorApp
     {
         static void Main(string[] args)
         {
-            //Preparing configuration files
+            //Preparing input- and output folders
             var configPath = "configs/";
-            string[] files = Directory.GetFiles(configPath);
+            var resultPath = "results/";
+
+            Directory.CreateDirectory(configPath);
+            Directory.CreateDirectory(resultPath);
+
+            var files = Directory.GetFiles(configPath);
 
             foreach (var configFile in files)
             {
