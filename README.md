@@ -12,8 +12,9 @@ AODV is implemented according to [RFC3561](https://tools.ietf.org/html/rfc3561).
 1. Open solution in Visual Studio and set SimulatorApp as start-up project.
 2. Build solution
 3. Find the folder in which the built executable is located (depending on configuration).
-4. Create a new folder in the executable-folder, called "configs".
-5. Place all wanted configuration files within "configs". Samples are provided in "/configs"
+4. Run the simulator, to create empty "configs" and "results" folders.
+4. Create configuration files for the wanted simulation - inspiration can be found in "configs" in the repo.
+5. Place all wanted configuration files within "configs". Samples are provided in "/configs" as mentioned above.
 6. Launch the simulator, and wait for it to finish. Results are exported automatically, to the folder specified in the config-file.
 
 ## Configuration files
