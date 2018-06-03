@@ -20,7 +20,7 @@ AODV is implemented according to [RFC3561](https://tools.ietf.org/html/rfc3561).
 ## Configuration files
 The config-files, formatted in JSON, should be placed in the "configs"-folder, as described above. This file contains the configuration parameters for the set up simulation, that differs from the default parameters.
 Samples are provided in the "configs" folder, and for available settings and their default values, the file 
-[SimulationConfiguration.cs](https://github.com/jonasfugl/thesis_network_simulator/blob/master/source/ConstellationSimulator/Configuration/SimulationConfiguration.cs)
+[SimulationConfiguration.cs](https://github.com/jonasfugl/thesis-network-simulator/blob/master/source/ConstellationSimulator/Configuration/SimulationConfiguration.cs)
 should be consulted.
 
 Note that a simulation group and simulation name must be provided, as the name of the output folder where the results are stored, is generated from these parameters.
