@@ -1,4 +1,4 @@
-# Simulating AODV in Low Earth orbit satellite constellations
+# Network simulator for AODV in Low Earth orbit satellite constellations
 A C# simple satellite network simulator, built for a master's thesis in computer engineering.
 
 The purpose of the thesis was to establish a suitable routing protocol for satellite constellations, located in 
